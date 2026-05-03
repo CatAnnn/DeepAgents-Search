@@ -1,0 +1,9 @@
+.env
+output/
+updated/
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+node_modules/
+agent_workspace/
