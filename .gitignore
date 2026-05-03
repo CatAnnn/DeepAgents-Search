@@ -1,9 +1,28 @@
+# --- 敏感信息 ---
 .env
+
+# --- Python 虚拟环境与依赖 ---
+.venv/
+venv/
+ENV/
+uv.lock
+pyproject.toml
+
+# --- Agent 运行产生的临时数据 ---
 output/
 updated/
-__pycache__/
-*.pyc
+agent_workspace/
+
+# --- IDE 配置文件 ---
 .vscode/
 .idea/
-node_modules/
-agent_workspace/
+*.swp
+
+# --- Python 编译缓存 ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- 系统文件 ---
+.DS_Store
+Thumbs.db
